@@ -37,7 +37,7 @@ public class Main {
             System.out.printf("%.2f %s = %.2f %s%n",
                     amount, fromCurrency.toUpperCase(), converted, toCurrency.toUpperCase());
         } catch (Exception e) {
-            System.err.println("Error: " + e.getMessage());
+            System.err.println("Error " + e.getMessage());
 
         }
 
